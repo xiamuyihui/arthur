@@ -25,6 +25,7 @@
     </properties>
 
     <modules>
+        <module>arthur-api-geteway</module>
         <module>arthur-eureka</module>
         <module>arthur-service</module>
         <module>arthur-common</module>

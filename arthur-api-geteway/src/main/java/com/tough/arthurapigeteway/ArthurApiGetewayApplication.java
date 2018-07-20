@@ -1,0 +1,14 @@
+package com.tough.arthurapigeteway;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+
+@SpringBootApplication
+@EnableZuulProxy
+public class ArthurApiGetewayApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ArthurApiGetewayApplication.class, args);
+    }
+}

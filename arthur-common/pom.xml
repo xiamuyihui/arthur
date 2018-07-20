@@ -5,8 +5,13 @@
     <artifactId>arthur-common</artifactId>
     <!--<version>0.0.1-SNAPSHOT</version>-->
 
+    <parent>
+        <groupId>com.tough</groupId>
+        <artifactId>arthur</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
     <properties>
-        <guava.version>20.0</guava.version>
         <commons-lang3.version>3.5</commons-lang3.version>
         <slf4j.version>1.7.22</slf4j.version>
         <orika.version>1.5.0</orika.version>
@@ -66,11 +71,11 @@
 
 
         <!-- UTILS begin -->
-        <dependency>
+        <!--<dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
