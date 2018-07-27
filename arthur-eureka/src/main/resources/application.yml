@@ -4,8 +4,10 @@ eureka:
   instance:
     hostname: arthur-eureka
     prefer-ip-address: true
+  server:
+      enable-self-preservation: false
   client:
-    register-with-eureka: false
     fetch-registry: false
     service-url:
       defaultZone: http://localhost:10000/eureka/
+    register-with-eureka: false

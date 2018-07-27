@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: arthur-api-geteway
+server:
+  port: 8080
+zuul:
+  #表示除了下面的服务忽略全部服务
+  ignored-services: '*'
+  routes:
+    user:
+      path:
+      serviceId:

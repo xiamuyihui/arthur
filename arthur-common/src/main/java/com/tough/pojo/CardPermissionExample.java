@@ -1,4 +1,4 @@
-package com.vanke.pojo;
+package com.tough.pojo;
 
 import java.util.ArrayList;
 import java.util.List;

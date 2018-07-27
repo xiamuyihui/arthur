@@ -1,4 +1,4 @@
-package com.vanke.pojo;
+package com.tough.pojo;
 
 import java.io.Serializable;
 
